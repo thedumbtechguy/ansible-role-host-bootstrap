@@ -1,0 +1,9 @@
+---
+
+-   name: 'Prerequisites | ubuntu aptitude update'
+    raw: apt-get -y update
+    become: true
+    
+-   name: 'Prerequisites | ubuntu python27 and dependencies'
+    raw: apt-get install -y python2.7 python-simplejson
+    become: true
