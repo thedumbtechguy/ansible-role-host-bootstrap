@@ -2,4 +2,4 @@
 
 - include: server_dependencies.yml
   tags: 
-    - server_dependencies
+    - host_bootstrap

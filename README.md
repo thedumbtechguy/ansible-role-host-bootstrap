@@ -1,6 +1,6 @@
-# Ansible Role: Server Dependencies
+# Ansible Role: Host Bootstrap
 
-An ansible role to install required ansible dependencies for ubuntu hosts.
+An ansible role to install required ansible dependencies for hosts.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ An ansible role to install required ansible dependencies for ubuntu hosts.
 ```yaml
 - hosts: all
   roles:
-    - thedumbtechguy.server-dependencies
+    - thedumbtechguy.host-bootstrap
 ```
 
 
