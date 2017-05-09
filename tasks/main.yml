@@ -1,5 +1,5 @@
 ---
 
-- include: server_dependencies.yml
+- include: host_bootstrap.yml
   tags: 
     - host_bootstrap
